@@ -17,6 +17,6 @@ Open Babel
 > The Open Babel package is a separate open source package.
   Open Babel is licensed under the
   [GNU General Public License, version 2](http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html).
-  Only the babel executable is needed (and included) in the chemalot package.
+  The babel JAVA liraries are needed (and included) in the OpenSysGen package. 
   More information on Open Babel is available at:
   [http://openbabel.org](http://openbabel.org)
