@@ -26,6 +26,7 @@ Usage
 
 To use OpenSysGen on any OS platform, make sure that Java Runtime Environment(JRE) and OpenBabel 2.4.1 are installed and the system PATH is set.
 Download OpenSysGen.jar, in a single folder add the downloaded jar file and your small molecule files(pdb,sdf,mol and mol2).
+
 Open the command window,
 ```bash
 C:\OpenSysGen>java -jar OpenSysGen.jar filename.sdf
