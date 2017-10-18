@@ -25,4 +25,16 @@ Usage
 -----
 
 To use OpenSysGen on any OS platform, make sure that Java Runtime Environment(JRE) and OpenBabel 2.4.1 are installed and the system PATH is set.
-Download OpenSysGen.jar, in a single folder add the downloaded jar file and your small molecule files(*.pdb,*.sdf,*.mol and *.mol2).
+Download OpenSysGen.jar, in a single folder add the downloaded jar file and your small molecule files(pdb,sdf,mol and mol2).
+Open the command window,
+```bash
+C:\OpenSysGen>java -jar OpenSysGen.jar filename.sdf
+example: C:\OpenSysGen>java -jar OpenSysGen.jar Acetaminophen.sdf
+multiple files (files with same extension): C:\OpenSysGen>java -jar OpenSysGen.jar Acetaminophen.sdf Salbutamol.sdf 
+```
+On terminal,
+```bash
+$ java -jar OpenSysGen.jar filename.sdf
+example:$ java -jar OpenSysGen.jar Acetaminophen.sdf
+multiple files (files with same extension):$ java -jar OpenSysGen.jar Acetaminophen.sdf Salbutamol.sdf 
+```
